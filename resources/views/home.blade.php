@@ -9,9 +9,9 @@
                     <div class="hero-text text-center">
                         <!-- Start Hero Text -->
                         <div class="section-heading">
-                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Welcome to ClassiGrids</h2>
-                            <p class="wow fadeInUp" data-wow-delay=".5s">Buy And Sell Everything From Used Cars To Mobile Phones And <br>Computers,
-                                Or Search For Property, Jobs And More.</p>
+                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Bienvenidos ClassiGrids</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".5s">Ofrecemos cursos online en muchas categorias<br>Diseño,
+                                o programación.</p>
                         </div>
                         <!-- End Search Form -->
                         <!-- Start Search Form -->
@@ -20,14 +20,14 @@
                                 <div class="col-lg-4 col-md-4 col-12 p-0">
                                     <div class="search-input">
                                         <label for="keyword"><i class="lni lni-search-alt theme-color"></i></label>
-                                        <input type="text" name="keyword" id="keyword" placeholder="Product keyword">
+                                        <input type="text" name="keyword" id="keyword" placeholder="Buscar Cursos">
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-12 p-0">
                                     <div class="search-input">
                                         <label for="category"><i class="lni lni-grid-alt theme-color"></i></label>
                                         <select name="category" id="category">
-                                            <option value="none" selected disabled>Categories</option>
+                                            <option value="none" selected disabled>Categorias</option>
                                             <option value="none">Vehicle</option>
                                             <option value="none">Electronics</option>
                                             <option value="none">Mobiles</option>
@@ -45,19 +45,19 @@
                                     <div class="search-input">
                                         <label for="location"><i class="lni lni-map-marker theme-color"></i></label>
                                         <select name="location" id="location">
-                                            <option value="none" selected disabled>Locations</option>
-                                            <option value="none">New York</option>
-                                            <option value="none">California</option>
-                                            <option value="none">Washington</option>
-                                            <option value="none">Birmingham</option>
-                                            <option value="none">Chicago</option>
-                                            <option value="none">Phoenix</option>
+                                            <option value="none" selected disabled>Lugar</option>
+                                            <option value="none">Huánuco</option>
+                                            <option value="none">Lima</option>
+                                            <option value="none">Huancayo</option>
+                                            <option value="none">Pucallpa</option>
+                                            <option value="none">Pasco</option>
+                                            <option value="none">Arequipa</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-2 col-12 p-0">
                                     <div class="search-btn button">
-                                        <button class="btn"><i class="lni lni-search-alt"></i> Search</button>
+                                        <button class="btn"><i class="lni lni-search-alt"></i> Buscar</button>
                                     </div>
                                 </div>
                             </div>
@@ -80,9 +80,9 @@
                             <!-- Start Single Category -->
                             <a href="category.html" class="single-cat">
                                 <div class="icon">
-                                    <img src="{{asset('assets/images/categories/car.svg') }}" alt="#">
+                                    <img src="{{asset('assets/images/categories/education.svg') }}" alt="#">
                                 </div>
-                                <h3>Vehicle</h3>
+                                <h3>Programación</h3>
                                 <h5 class="total">35</h5>
                             </a>
                             <!-- End Single Category -->
@@ -91,43 +91,43 @@
                                 <div class="icon">
                                     <img src="{{asset('assets/images/categories/laptop.svg') }}" alt="#">
                                 </div>
-                                <h3>Electronics</h3>
+                                <h3>Diseño</h3>
                                 <h5 class="total">22</h5>
                             </a>
                             <!-- End Single Category -->
                             <!-- Start Single Category -->
                             <a href="category.html" class="single-cat">
                                 <div class="icon">
-                                    <img src="{{asset('assets/images/categories/matrimony.svg') }}" alt="#">
+                                    <img src="{{asset('assets/images/categories/education.svg') }}" alt="#">
                                 </div>
-                                <h3>Matrimony</h3>
+                                <h3>PHP Lavarel</h3>
                                 <h5 class="total">55</h5>
                             </a>
                             <!-- End Single Category -->
                             <!-- Start Single Category -->
                             <a href="category.html" class="single-cat">
                                 <div class="icon">
-                                    <img src="{{asset('assets/images/categories/furniture.svg') }}" alt="#">
+                                    <img src="{{asset('assets/images/categories/laptop.svg') }}" alt="#">
                                 </div>
-                                <h3>Furnitures</h3>
+                                <h3>JavaScript</h3>
                                 <h5 class="total">21</h5>
                             </a>
                             <!-- End Single Category -->
                             <!-- Start Single Category -->
                             <a href="category.html" class="single-cat">
                                 <div class="icon">
-                                    <img src="{{asset('assets/images/categories/jobs.svg') }}" alt="#">
+                                    <img src="{{asset('assets/images/categories/laptop.svg') }}" alt="#">
                                 </div>
-                                <h3>Jobs</h3>
+                                <h3>Python</h3>
                                 <h5 class="total">44</h5>
                             </a>
                             <!-- End Single Category -->
                             <!-- Start Single Category -->
                             <a href="category.html" class="single-cat">
                                 <div class="icon">
-                                    <img src="{{asset('assets/images/categories/real-estate.svg') }}" alt="#">
+                                    <img src="{{asset('assets/images/categories/education.svg') }}" alt="#">
                                 </div>
-                                <h3>Real Estate</h3>
+                                <h3>Excel básico</h3>
                                 <h5 class="total">65</h5>
                             </a>
                             <!-- End Single Category -->
@@ -136,25 +136,25 @@
                                 <div class="icon">
                                     <img src="{{asset('assets/images/categories/laptop.svg') }}" alt="#">
                                 </div>
-                                <h3>Education</h3>
+                                <h3>Excel Intermedio</h3>
                                 <h5 class="total">35</h5>
                             </a>
                             <!-- End Single Category -->
                             <!-- Start Single Category -->
                             <a href="category.html" class="single-cat">
                                 <div class="icon">
-                                    <img src="{{asset('assets/images/categories/hospital.svg') }}" alt="#">
+                                    <img src="{{asset('assets/images/categories/laptop.svg') }}" alt="#">
                                 </div>
-                                <h3>Health & Beauty</h3>
+                                <h3>Excel Avanzado</h3>
                                 <h5 class="total">22</h5>
                             </a>
                             <!-- End Single Category -->
                             <!-- Start Single Category -->
                             <a href="category.html" class="single-cat">
                                 <div class="icon">
-                                    <img src="{{asset('assets/images/categories/tshirt.svg') }}" alt="#">
+                                    <img src="{{asset('assets/images/categories/education.svg') }}" alt="#">
                                 </div>
-                                <h3>Fashion</h3>
+                                <h3>Android</h3>
                                 <h5 class="total">25</h5>
                             </a>
                             <!-- End Single Category -->
@@ -163,34 +163,34 @@
                                 <div class="icon">
                                     <img src="{{asset('assets/images/categories/education.svg') }}" alt="#">
                                 </div>
-                                <h3>Education</h3>
+                                <h3>VueJS</h3>
                                 <h5 class="total">42</h5>
                             </a>
                             <!-- End Single Category -->
                             <!-- Start Single Category -->
                             <a href="category.html" class="single-cat">
                                 <div class="icon">
-                                    <img src="{{asset('assets/images/categories/controller.svg') }}" alt="#">
+                                    <img src="{{asset('assets/images/categories/laptop.svg') }}" alt="#">
                                 </div>
-                                <h3>Gadgets</h3>
+                                <h3>Angular</h3>
                                 <h5 class="total">32</h5>
                             </a>
                             <!-- End Single Category -->
                             <!-- Start Single Category -->
                             <a href="category.html" class="single-cat">
                                 <div class="icon">
-                                    <img src="{{asset('assets/images/categories/travel.svg') }}" alt="#">
+                                    <img src="{{asset('assets/images/categories/education.svg') }}" alt="#">
                                 </div>
-                                <h3>Backpacks</h3>
+                                <h3>React</h3>
                                 <h5 class="total">15</h5>
                             </a>
                             <!-- End Single Category -->
                             <!-- Start Single Category -->
                             <a href="category.html" class="single-cat">
                                 <div class="icon">
-                                    <img src="{{asset('assets/images/categories/watch.svg') }}" alt="#">
+                                    <img src="{{asset('assets/images/categories/education.svg') }}" alt="#">
                                 </div>
-                                <h3>Watches</h3>
+                                <h3>PHP</h3>
                                 <h5 class="total">65</h5>
                             </a>
                             <!-- End Single Category -->
@@ -208,34 +208,37 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Latest Products</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
-                            Ipsum available, but the majority have suffered alteration in some form.</p>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Lista de cursos</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Ofrecemos los siguientes cursos 
+                            Los mejores temas para aprender con nuestros cursos.</p>
                     </div>
                 </div>
             </div>
             <div class="single-head">
                 <div class="row">
+                  @foreach ($datos as $dato)
+                      
+                  
                     <div class="col-lg-4 col-md-6 col-12">
                         <!-- Start Single Grid -->
                         <div class="single-grid wow fadeInUp" data-wow-delay=".2s">
                             <div class="image">
-                                <a href="item-details.html" class="thumbnail"><img src="{{asset('assets/images/items-grid/img1.jpg')}}" alt=""#"></a>
+                                <a href="item-details.html" class="thumbnail"><img src="{{asset($dato->video)}}" alt=""#"></a>
                                 <div class="author">
                                     <div class="author-image">
                                         <a href="javascript:void(0)"><img src="{{asset('assets/images/items-grid/author-1.jpg')}}" alt=""#">
-                                            <span>Smith jeko</span></a>
+                                            <span>Admin</span></a>
                                     </div>
-                                    <p class="sale">For Sale</p>
+                                    <p class="sale">Adquirir</p>
                                 </div>
                             </div>
                             <div class="content">
                                 <div class="top-content">
-                                    <a href="javascript:void(0)" class="tag">Mobile Phones</a>
+                                    <a href="javascript:void(0)" class="tag">{{$dato->titulo}}</a>
                                     <h3 class="title">
-                                        <a href="item-details.html">Apple Iphone X</a>
+                                        <a href="item-details.html">{{$dato->subtitulo}}</a>
                                     </h3>
-                                    <p class="update-time">Last Updated: 1 hours ago</p>
+                                    <p class="update-time">Tiempo: 1 hora</p>
                                     <ul class="rating">
                                         <li><i class="lni lni-star-filled"></i></li>
                                         <li><i class="lni lni-star-filled"></i></li>
@@ -245,485 +248,28 @@
                                         <li><a href="javascript:void(0)">(35)</a></li>
                                     </ul>
                                     <ul class="info-list">
-                                        <li><a href="javascript:void(0)"><i class="lni lni-map-marker"></i> New York, US</a></li>
-                                        <li><a href="javascript:void(0)"><i class="lni lni-timer"></i> Feb 18, 2023</a></li>
+                                        <li><a href="javascript:void(0)"><i class="lni lni-map-marker"></i> Huanuco</a></li>
+                                        <li><a href="javascript:void(0)"><i class="lni lni-timer"></i> {{$dato->fechaAct}}</a></li>
                                     </ul>
                                 </div>
                                 <div class="bottom-content">
-                                    <p class="price">Start From: <span>$200.00</span></p>
+                                    <p class="price">Costo S/: <span>{{$dato->precio}}</span></p>
                                     <a href="javascript:void(0)" class="like"><i class="lni lni-heart"></i></a>
                                 </div>
                             </div>
                         </div>
                         <!-- End Single Grid -->
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <!-- Start Single Grid -->
-                        <div class="single-grid wow fadeInUp" data-wow-delay=".4s">
-                            <div class="image">
-                                <a href="item-details.html" class="thumbnail"><img src="{{ asset('assets/images/items-grid/img2.jpg') }}" alt="#"></a>
-                                <div class="author">
-                                    <div class="author-image">
-                                        <a href="javascript:void(0)"><img src="{{ asset('assets/images/items-grid/author-2.jpg') }}" alt="#">
-                                            <span>Alex Jui</span></a>
-                                    </div>
-                                    <p class="sale">For Sale</p>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <div class="top-content">
-                                    <a href="javascript:void(0)" class="tag">Real Estate</a>
-                                    <h3 class="title">
-                                        <a href="item-details.html">Amazing Room for Rent</a>
-                                    </h3>
-                                    <p class="update-time">Last Updated: 2 hours ago</p>
-                                    <ul class="rating">
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><a href="javascript:void(0)">(20)</a></li>
-                                    </ul>
-                                    <ul class="info-list">
-                                        <li><a href="javascript:void(0)"><i class="lni lni-map-marker"></i> Dallas, Washington</a></li>
-                                        <li><a href="javascript:void(0)"><i class="lni lni-timer"></i> Jan 7, 2023</a></li>
-                                    </ul>
-                                </div>
-                                <div class="bottom-content">
-                                    <p class="price">Start From: <span>$450.00</span></p>
-                                    <a href="javascript:void(0)" class="like"><i class="lni lni-heart"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Grid -->
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <!-- Start Single Grid -->
-                        <div class="single-grid wow fadeInUp" data-wow-delay=".6s">
-                            <div class="image">
-                                <a href="item-details.html" class="thumbnail"><img src="{{ asset('assets/images/items-grid/img3.jpg') }}" alt="#"></a>
-                                <div class="author">
-                                    <div class="author-image">
-                                        <a href="javascript:void(0)"><img src="{{ asset('assets/images/items-grid/author-3.jpg') }}" alt="#">
-                                            <span>Devid Milan</span></a>
-                                    </div>
-                                    <p class="sale">For Sale</p>
-                                </div>
-                                <p class="item-position"><i class="lni lni-bolt"></i> Featured</p>
-                            </div>
-                            <div class="content">
-                                <div class="top-content">
-                                    <a href="javascript:void(0)" class="tag">Mobile Phones</a>
-                                    <h3 class="title">
-                                        <a href="item-details.html">Canon SX Powershot D-SLR</a>
-                                    </h3>
-                                    <p class="update-time">Last Updated: 3 hours ago</p>
-                                    <ul class="rating">
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><a href="javascript:void(0)">(55)</a></li>
-                                    </ul>
-                                    <ul class="info-list">
-                                        <li><a href="javascript:void(0)"><i class="lni lni-map-marker"></i> New York, US</a></li>
-                                        <li><a href="javascript:void(0)"><i class="lni lni-timer"></i> Mar 18, 2023</a></li>
-                                    </ul>
-                                </div>
-                                <div class="bottom-content">
-                                    <p class="price">Start From: <span>$700.00</span></p>
-                                    <a href="javascript:void(0)" class="like"><i class="lni lni-heart"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Grid -->
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <!-- Start Single Grid -->
-                        <div class="single-grid wow fadeInUp" data-wow-delay=".2s">
-                            <div class="image">
-                                <a href="item-details.html" class="thumbnail"><img src="{{ asset('assets/images/items-grid/img4.jpg') }}" alt="#"></a>
-                                <div class="author">
-                                    <div class="author-image">
-                                        <a href="javascript:void(0)"><img src="{{ asset('assets/images/items-grid/author-4.jpg') }}" alt="#">
-                                            <span>Jesia Jully</span></a>
-                                    </div>
-                                    <p class="sale">For Sale</p>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <div class="top-content">
-                                    <a href="javascript:void(0)" class="tag">Vehicles</a>
-                                    <h3 class="title">
-                                        <a href="item-details.html">BMW 5 Series GT Car</a>
-                                    </h3>
-                                    <p class="update-time">Last Updated: 4 hours ago</p>
-                                    <ul class="rating">
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><a href="javascript:void(0)">(35)</a></li>
-                                    </ul>
-                                    <ul class="info-list">
-                                        <li><a href="javascript:void(0)"><i class="lni lni-map-marker"></i> New York, US</a></li>
-                                        <li><a href="javascript:void(0)"><i class="lni lni-timer"></i> Apr 12, 2023</a></li>
-                                    </ul>
-                                </div>
-                                <div class="bottom-content">
-                                    <p class="price">Start From: <span>$1000.00</span></p>
-                                    <a href="javascript:void(0)" class="like"><i class="lni lni-heart"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Grid -->
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <!-- Start Single Grid -->
-                        <div class="single-grid wow fadeInUp" data-wow-delay=".4s">
-                            <div class="image">
-                                <a href="item-details.html" class="thumbnail"><img src="{{ asset('assets/images/items-grid/img5.jpg') }}" alt="#"></a>
-                                <div class="author">
-                                    <div class="author-image">
-                                        <a href="javascript:void(0)"><img src="{{ asset('assets/images/items-grid/author-5.jpg') }}" alt="#">
-                                            <span>Thomas Deco</span></a>
-                                    </div>
-                                    <p class="sale">For Sale</p>
-                                </div>
-                                <p class="item-position"><i class="lni lni-bolt"></i> Featured</p>
-                            </div>
-                            <div class="content">
-                                <div class="top-content">
-                                    <a href="javascript:void(0)" class="tag">Apple</a>
-                                    <h3 class="title">
-                                        <a href="item-details.html">Apple Macbook Pro 13 Inch</a>
-                                    </h3>
-                                    <p class="update-time">Last Updated: 5 hours ago</p>
-                                    <ul class="rating">
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><a href="javascript:void(0)">(35)</a></li>
-                                    </ul>
-                                    <ul class="info-list">
-                                        <li><a href="javascript:void(0)"><i class="lni lni-map-marker"></i> Louis, Missouri, US</a></li>
-                                        <li><a href="javascript:void(0)"><i class="lni lni-timer"></i> May 25, 2023</a></li>
-                                    </ul>
-                                </div>
-                                <div class="bottom-content">
-                                    <p class="price">Start From: <span>$550.00</span></p>
-                                    <a href="javascript:void(0)" class="like"><i class="lni lni-heart"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Grid -->
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <!-- Start Single Grid -->
-                        <div class="single-grid wow fadeInUp" data-wow-delay=".6s">
-                            <div class="image">
-                                <a href="item-details.html" class="thumbnail"><img src="{{ asset('assets/images/items-grid/img6.jpg') }}" alt="#"></a>
-                                <div class="author">
-                                    <div class="author-image">
-                                        <a href="javascript:void(0)"><img src="{{ asset('assets/images/items-grid/author-6.jpg') }}" alt="#">
-                                            <span>Jonson zack</span></a>
-                                    </div>
-                                    <p class="sale">For Sale</p>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <div class="top-content">
-                                    <a href="javascript:void(0)" class="tag">Restaurant</a>
-                                    <h3 class="title">
-                                        <a href="item-details.html">Cream Restaurant</a>
-                                    </h3>
-                                    <p class="update-time">Last Updated: 7 hours ago</p>
-                                    <ul class="rating">
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
-                                        <li><a href="javascript:void(0)">(20)</a></li>
-                                    </ul>
-                                    <ul class="info-list">
-                                        <li><a href="javascript:void(0)"><i class="lni lni-map-marker"></i> New York, US</a></li>
-                                        <li><a href="javascript:void(0)"><i class="lni lni-timer"></i> Feb 18, 2023</a></li>
-                                    </ul>
-                                </div>
-                                <div class="bottom-content">
-                                    <p class="price">Start From: <span>$500.00</span></p>
-                                    <a href="javascript:void(0)" class="like"><i class="lni lni-heart"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Grid -->
-                    </div>
+                    @endforeach
+                    
+
                 </div>
             </div>
         </div>
     </section>
     <!-- /End Items Grid Area -->
 
-    <!-- Start Why Choose Area -->
-    <section class="why-choose section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Why Choose Us</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
-                            Ipsum available, but the majority have suffered alteration in some form.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="choose-content">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <!-- Start Single List -->
-                                <div class="single-list wow fadeInUp" data-wow-delay=".2s">
-                                    <i class="lni lni-book"></i>
-                                    <h4>Fully Documented</h4>
-                                    <p>Buy and sell everything from used cars to mobile phones and computer or search
-                                        for property.</p>
-                                </div>
-                                <!-- Start Single List -->
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <!-- Start Single List -->
-                                <div class="single-list wow fadeInUp" data-wow-delay=".4s">
-                                    <i class="lni lni-leaf"></i>
-                                    <h4>Clean & Modern Design</h4>
-                                    <p>Buy and sell everything from used cars to mobile phones and computer or search
-                                        for property.</p>
-                                </div>
-                                <!-- Start Single List -->
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <!-- Start Single List -->
-                                <div class="single-list wow fadeInUp" data-wow-delay=".6s">
-                                    <i class="lni lni-cog"></i>
-                                    <h4>Completely Customizable</h4>
-                                    <p>Buy and sell everything from used cars to mobile phones and computer or search
-                                        for property.</p>
-                                </div>
-                                <!-- Start Single List -->
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <!-- Start Single List -->
-                                <div class="single-list wow fadeInUp" data-wow-delay=".2s">
-                                    <i class="lni lni-pointer-up"></i>
-                                    <h4>User Friendly</h4>
-                                    <p>Buy and sell everything from used cars to mobile phones and computer or search
-                                        for property.</p>
-                                </div>
-                                <!-- Start Single List -->
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <!-- Start Single List -->
-                                <div class="single-list wow fadeInUp" data-wow-delay=".4s">
-                                    <i class="lni lni-layout"></i>
-                                    <h4>Awesome Layout</h4>
-                                    <p>Buy and sell everything from used cars to mobile phones and computer or search
-                                        for property.</p>
-                                </div>
-                                <!-- Start Single List -->
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <!-- Start Single List -->
-                                <div class="single-list wow fadeInUp" data-wow-delay=".6s">
-                                    <i class="lni lni-laptop-phone"></i>
-                                    <h4>Fully Responsive</h4>
-                                    <p>Buy and sell everything from used cars to mobile phones and computer or search
-                                        for property.</p>
-                                </div>
-                                <!-- Start Single List -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /End Why Choose Area -->
-
-    <!-- Start Call Action Area -->
-    <section class="call-action overlay section">
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-8 offset-lg-2 col-12">
-                    <div class="inner">
-                        <div class="content">
-                            <h2 class="wow fadeInUp" data-wow-delay=".4s">Currently You are using free<br>
-                                Lite version of ClassiGrids</h2>
-                            <p class="wow fadeInUp" data-wow-delay=".6s">Please, purchase full version of the template to get all pages,<br> features and commercial license.</p>
-                            <div class="button wow fadeInUp" data-wow-delay=".8s">
-                                <a href="javascript:void(0)" class="btn">Purchase Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Call Action Area -->
-
-    <!-- Start Pricing Table Area -->
-    <section class="pricing-table section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Pricing Plan</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
-                            Ipsum available, but the majority have suffered alteration in some form.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Single Table -->
-                    <div class="single-table wow fadeInUp" data-wow-delay=".2s">
-                        <!-- Table Head -->
-                        <div class="table-head">
-                            <div class="price">
-                                <h2 class="amount">$00<span class="duration">/ Month</span></h2>
-                            </div>
-                            <h4 class="title">Free</h4>
-                        </div>
-                        <!-- End Table Head -->
-                        <!-- Table List -->
-                        <ul class="table-list">
-                            <li>One Listing</li>
-                            <li>Contact Display</li>
-                            <li>Image Gallery</li>
-                            <li>30 Days Availablity</li>
-                            <li>Non-Featured</li>
-                            <li>Business Tagline</li>
-                        </ul>
-                        <!-- End Table List -->
-                        <!-- Table Bottom -->
-                        <div class="button">
-                            <a class="btn" href="javascript:void(0)">Select Plan</a>
-                        </div>
-                        <!-- End Table Bottom -->
-                    </div>
-                    <!-- End Single Table-->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Single Table -->
-                    <div class="single-table wow fadeInUp" data-wow-delay=".4s">
-                        <!-- Table Head -->
-                        <div class="table-head">
-                            <div class="price">
-                                <h2 class="amount">$59<span class="duration">/ Month</span></h2>
-                            </div>
-                            <h4 class="title">Standard</h4>
-                        </div>
-                        <!-- End Table Head -->
-                        <!-- Table List -->
-                        <ul class="table-list">
-                            <li>One Listing</li>
-                            <li>Contact Display</li>
-                            <li>Image Gallery</li>
-                            <li>60 Days Availablity</li>
-                            <li>Non-Featured</li>
-                            <li>Business Tagline</li>
-                        </ul>
-                        <!-- End Table List -->
-                        <!-- Table Bottom -->
-                        <div class="button">
-                            <a class="btn" href="javascript:void(0)">Select Plan</a>
-                        </div>
-                        <!-- End Table Bottom -->
-                    </div>
-                    <!-- End Single Table-->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Single Table -->
-                    <div class="single-table wow fadeInUp" data-wow-delay=".6s">
-                        <!-- Table Head -->
-                        <div class="table-head">
-                            <div class="price">
-                                <h2 class="amount">$99<span class="duration">/ Month</span></h2>
-                            </div>
-                            <h4 class="title">Premium</h4>
-                        </div>
-                        <!-- End Table Head -->
-                        <!-- Table List -->
-                        <ul class="table-list">
-                            <li>One Listing</li>
-                            <li>Contact Display</li>
-                            <li>Image Gallery</li>
-                            <li>90 Days Availablity</li>
-                            <li>Non-Featured</li>
-                            <li>Business Tagline</li>
-                        </ul>
-                        <!-- End Table List -->
-                        <!-- Table Bottom -->
-                        <div class="button">
-                            <a class="btn" href="javascript:void(0)">Select Plan</a>
-                        </div>
-                        <!-- End Table Bottom -->
-                    </div>
-                    <!-- End Single Table-->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/ End Pricing Table Area -->
-
-    <!-- Start How Works Area -->
-    <section class="how-works section" style="background-color: #fff;">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">How it Works</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
-                            Ipsum available, but the majority have suffered alteration in some form.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-12">
-                    <!-- Start Single Work -->
-                    <div class="single-work wow fadeInUp" data-wow-delay=".2s">
-                        <span class="serial">01</span>
-                        <h3>Create Account</h3>
-                        <p>Lorem ipsum dolor sit amet constur adipisicing sed do eiusmod tempor incididunt labore.</p>
-                    </div>
-                    <!-- End Single Work -->
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                    <!-- Start Single Work -->
-                    <div class="single-work wow fadeInUp" data-wow-delay=".4s">
-                        <span class="serial">02</span>
-                        <h3>Post Your Ads</h3>
-                        <p>Lorem ipsum dolor sit amet constur adipisicing sed do eiusmod tempor incididunt labore.</p>
-                    </div>
-                    <!-- End Single Work -->
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                    <!-- Start Single Work -->
-                    <div class="single-work wow fadeInUp" data-wow-delay=".6s">
-                        <span class="serial">03</span>
-                        <h3>Sell Your Item</h3>
-                        <p>Lorem ipsum dolor sit amet constur adipisicing sed do eiusmod tempor incididunt labore.</p>
-                    </div>
-                    <!-- End Single Work -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End How Works Area -->
+    
 @endsection
 
 @section('script')

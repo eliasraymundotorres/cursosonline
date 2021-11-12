@@ -59,35 +59,27 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ms-auto">
                                     <li class="nav-item">
-                                        <a class=" active dd-menu collapsed" href="javascript:void(0)"
-                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-1"
-                                            aria-controls="navbarSupportedContent" aria-expanded="false"
-                                            aria-label="Toggle navigation">Home</a>
-                                        <ul class="sub-menu collapse" id="submenu-1-1">
-                                            <li class="nav-item active"><a href="index.html">Home Default</a></li>
-                                            <li class="nav-item"><a href="javascript:void(0)">Home Version 2</a></li>
-                                            <li class="nav-item"><a href="javascript:void(0)">Home Version 3</a></li>
-                                        </ul>
+                                        <a href="/home" aria-label="Toggle navigation">Inicio</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Categories</a>
+                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Categorias</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class=" dd-menu collapsed" href="javascript:void(0)"
                                             data-bs-toggle="collapse" data-bs-target="#submenu-1-3"
                                             aria-controls="navbarSupportedContent" aria-expanded="false"
-                                            aria-label="Toggle navigation">Listings</a>
+                                            aria-label="Toggle navigation">Lista de cursos</a>
                                         <ul class="sub-menu collapse" id="submenu-1-3">
-                                            <li class="nav-item"><a href="javascript:void(0)">Ad Grid</a></li>
-                                            <li class="nav-item"><a href="javascript:void(0)">Ad Listing</a></li>
-                                            <li class="nav-item"><a href="javascript:void(0)">Ad Details</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">Programación</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">Diseño</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">JavaScript</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
                                         <a class=" dd-menu collapsed" href="javascript:void(0)"
                                             data-bs-toggle="collapse" data-bs-target="#submenu-1-4"
                                             aria-controls="navbarSupportedContent" aria-expanded="false"
-                                            aria-label="Toggle navigation">Pages</a>
+                                            aria-label="Toggle navigation">Paginas</a>
                                         <ul class="sub-menu mega-menu collapse" id="submenu-1-4">
                                             <li class="single-block">
                                                 <ul>
@@ -134,11 +126,10 @@
                                             aria-controls="navbarSupportedContent" aria-expanded="false"
                                             aria-label="Toggle navigation">Blog</a>
                                         <ul class="sub-menu collapse" id="submenu-1-5">
-                                            <li class="nav-item"><a href="javascript:void(0)">Blog Grid Sidebar</a>
+                                            <li class="nav-item"><a href="javascript:void(0)">Blog Principal</a>
                                             </li>
-                                            <li class="nav-item"><a href="javascript:void(0)">Blog Single</a></li>
-                                            <li class="nav-item"><a href="javascript:void(0)">Blog Single
-                                                    Sibebar</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">Blog Secundario</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">Blog complementario</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -146,15 +137,15 @@
                             <div class="login-button">
                                 <ul>
                                     <li>
-                                        <a href="javascript:void(0)"><i class="lni lni-enter"></i> Login</a>
+                                        <a href="javascript:void(0)"><i class="lni lni-enter"></i> Sesión</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)"><i class="lni lni-user"></i> Register</a>
+                                        <a href="javascript:void(0)"><i class="lni lni-user"></i> Registrarse</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="button header-button">
-                                <a href="javascript:void(0)" class="btn">Post an Ad</a>
+                                <a href="javascript:void(0)" class="btn">Unirse</a>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
@@ -164,7 +155,7 @@
     </header>
     <!-- End Header Area -->
 
-   @yeild('section')
+   @yield('section')
 
     <!-- Start Newsletter Area -->
     <div class="newsletter section">
@@ -315,8 +306,9 @@
     <a href="#" class="scroll-top btn-hover">
         <i class="lni lni-chevron-up"></i>
     </a>
+    
 
-    @yeild('script')
+    @yield('script')
 
 </body>
 
